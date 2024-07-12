@@ -1,0 +1,141 @@
+body.grayscale-mode {
+  background-color: var(--tg-bg-color);
+  color: var(--tg-text-color);
+  filter: grayscale(100%);
+
+  /* Typography */
+  h1,
+  h1.elementor-heading-title,
+  h2,
+  h2.elementor-heading-title,
+  h3,
+  h3.elementor-heading-title,
+  h4,
+  h4.elementor-heading-title,
+  h5,
+  h5.elementor-heading-title,
+  h6,
+  h6.elementor-heading-title {
+    color: var(--tg-text-color);
+  }
+
+  div.elementor-widget-heading
+    div.elementor-widget-container
+    h2.elementor-heading-title {
+    color: var(--tg-text-color);
+    span {
+      color: var(--tg-text-color);
+    }
+  }
+
+  /* Text widget */
+  .elementor-widget-text-editor div.elementor-widget-container {
+    color: var(--tg-text-color);
+  }
+
+  /* Buttons */
+  div.elementor-widget-container div.wpr-button-wrap a.wpr-button {
+    background-color: var(--tg-bg-color);
+    border-color: var(--tg-border-color);
+    span.wpr-button-text {
+      color: var(--tg-text-color);
+    }
+
+    span.wpr-button-icon {
+      svg {
+        fill: var(--tg-text-color);
+      }
+    }
+  }
+
+  /* Menus */
+  /* Top secondary navbar */
+  div.elementor-element.elementor-element-df63de2[data-id="df63de2"] {
+    background-color: var(--tg-bg-color-secondary);
+    a.wpr-menu-item {
+      color: var(--tg-text-color);
+    }
+  }
+
+  /* Top primary navbar */
+  div.elementor-element.elementor-element-09140c4[data-id="09140c4"] {
+    background-color: var(--tg-bg-color);
+
+    [data-id="92c8d75"] img {
+      filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
+        hue-rotate(288deg) brightness(101%) contrast(103%);
+    }
+
+    a.wpr-menu-item {
+      color: var(--tg-text-color);
+    }
+
+    div.wpr-button-wrap a.wpr-button {
+      color: var(--tg-text-color);
+      border: 1px solid var(--tg-border-color);
+    }
+  }
+
+  /* Mega menus */
+  [data-elementor-post-type="wpr_mega_menu"] {
+    background-color: var(--tg-bg-color-secondary);
+
+    .elementor-element-9ce1304[data-id="9ce1304"] > div {
+      background-color: var(--tg-bg-color-secondary);
+    }
+  }
+
+  /* Case study logos */
+  .elementor-element-5db5131[data-id="5db5131"] {
+    img {
+      filter: invert(100%);
+    }
+  }
+
+  /* Tecno Group companies */
+  .elementor-element-64b0904[data-id="64b0904"],
+  .elementor-element-29f8bf9[data-id="29f8bf9"] {
+    background-color: var(--tg-bg-color-secondary);
+  }
+
+  /* Footer menu */
+  .elementor-element-8482ee6[data-id="8482ee6"] {
+    .elementor-element-c7f060a[data-id="c7f060a"] {
+      background-color: var(--tg-bg-color);
+
+      img {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(100%)
+          saturate(0%) hue-rotate(288deg) brightness(101%) contrast(103%);
+      }
+
+      .elementor-widget-container {
+        a {
+          color: var(--tg-text-color);
+        }
+
+        a:hover {
+          color: var(--tg-text-color);
+          text-decoration: underline;
+        }
+      }
+
+      .elementor-icon {
+        border-color: var(--tg-text-color);
+        svg {
+          fill: var(--tg-text-color);
+        }
+      }
+
+      a.wpr-button {
+        border: 1px solid var(--tg-border-color);
+      }
+    }
+  }
+
+  /* Footer logos */
+  .elementor-element-d8bf916[data-id="d8bf916"] {
+    img {
+      filter: invert(100%);
+    }
+  }
+}
