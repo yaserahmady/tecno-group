@@ -92,50 +92,20 @@ body.grayscale-mode {
     }
   }
 
-  /* Tecno Group companies */
-  .elementor-element-64b0904[data-id="64b0904"],
-  .elementor-element-29f8bf9[data-id="29f8bf9"] {
-    background-color: var(--tg-bg-color-secondary);
-  }
-
-  /* Footer menu */
-  .elementor-element-8482ee6[data-id="8482ee6"] {
-    .elementor-element-c7f060a[data-id="c7f060a"] {
-      background-color: var(--tg-bg-color);
-
-      img {
-        filter: brightness(0) saturate(100%) invert(100%) sepia(100%)
-          saturate(0%) hue-rotate(288deg) brightness(101%) contrast(103%);
+  /* Dialogs (like mobile menus) */
+  .dialog-widget {
+    .dialog-widget-content {
+      background-color: var(--tg-bg-color-secondary);
+      color: var(--tg-text-color);
+      svg {
+        fill: var(--tg-text-color);
       }
-
-      .elementor-widget-container {
+      .list-wrapper {
+        background-color: var(--tg-bg-color-secondary);
         a {
           color: var(--tg-text-color);
         }
-
-        a:hover {
-          color: var(--tg-text-color);
-          text-decoration: underline;
-        }
       }
-
-      .elementor-icon {
-        border-color: var(--tg-text-color);
-        svg {
-          fill: var(--tg-text-color);
-        }
-      }
-
-      a.wpr-button {
-        border: 1px solid var(--tg-border-color);
-      }
-    }
-  }
-
-  /* Footer logos */
-  .elementor-element-d8bf916[data-id="d8bf916"] {
-    img {
-      filter: invert(100%);
     }
   }
 }
