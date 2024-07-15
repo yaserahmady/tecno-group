@@ -369,8 +369,21 @@ body.grayscale-mode [data-elementor-id="272"] .elementor-element-0225b8a[data-id
 body.grayscale-mode.home .elementor-element-c8293b3[data-id="c8293b3"],
   body.grayscale-mode.home .elementor-element-9695b70[data-id="9695b70"],
   body.grayscale-mode.home .elementor-element-f7d68af[data-id="f7d68af"],
-  body.grayscale-mode.home .elementor-element-c5a0209[data-id="c5a0209"] {
+  body.grayscale-mode.home .elementor-element-c5a0209[data-id="c5a0209"],
+  body.grayscale-mode.home .elementor-element-42a397d[data-id="42a397d"] {
     background-color: var(--tg-bg-color-secondary);
+  }
+
+body.grayscale-mode.home .elementor-element-3076d7d[data-id="3076d7d"],
+  body.grayscale-mode.home .elementor-element-9d277f1[data-id="9d277f1"],
+  body.grayscale-mode.home .elementor-element-747084c[data-id="747084c"],
+  body.grayscale-mode.home .elementor-element-dffc5d8[data-id="dffc5d8"],
+  body.grayscale-mode.home .elementor-element-8ba55f3[data-id="8ba55f3"],
+  body.grayscale-mode.home .elementor-element-cb321a3[data-id="cb321a3"],
+  body.grayscale-mode.home .elementor-element-f4e2d4f[data-id="f4e2d4f"],
+  body.grayscale-mode.home .elementor-element-21f2647[data-id="21f2647"],
+  body.grayscale-mode.home .elementor-element-eabffa2[data-id="eabffa2"] {
+    filter: invert(100%);
   }
 
 /* @import "./niko-fixes.css"; */
@@ -406,7 +419,7 @@ body.grayscale-mode.page-id-1156 .swiper-slide .wpr-story-info .wpr-title,
           color: var(--tg-text-color) !important;
         }
 
-body.grayscale-mode.page-id-1156 .elementor-element-e3fb091[data-id="e3fb091"] img {
+body.grayscale-mode.page-id-1156 .elementor-element-e3fb091[data-id="e3fb091"] img, body.grayscale-mode.page-id-1156 .elementor-element-32261c0[data-id="32261c0"] img {
         filter: invert(100%) !important;
       }
 
@@ -417,6 +430,18 @@ body.grayscale-mode.page-id-1156 .elementor-icon {
 
 body.grayscale-mode.page-id-1156 .elementor-icon svg {
         fill: var(--tg-text-color) !important;
+      }
+
+/* Page cosa-facciamo */
+
+body.grayscale-mode.page-id-1046 .elementor-element-3e949c9[data-id="3e949c9"] img {
+        filter: invert(100%);
+      }
+
+body.grayscale-mode.page-id-1046 .elementor-element-3e949c9[data-id="3e949c9"] .elementor-button {
+        background-color: var(--tg-bg-color) !important;
+        border-color: var(--tg-text-color) !important;
+        color: var(--tg-text-color) !important;
       }
 
 /* Page cosa-ci-guida */
@@ -487,7 +512,7 @@ body.grayscale-mode.page-id-2103 .elementor-element-c034fe6[data-id="c034fe6"] i
 
 /* Page polo-della-sostenibilita */
 
-body.grayscale-mode.page-id-2071 .elementor-element-de164f3[data-id="de164f3"] img {
+body.grayscale-mode.page-id-2071 .elementor-element-de164f3[data-id="de164f3"] img, body.grayscale-mode.page-id-2071 .elementor-element-241ca38[data-id="241ca38"] img {
         filter: invert(100%);
       }
 
@@ -518,6 +543,10 @@ body.grayscale-mode.page-id-2109 main [data-element_type="container"] .elementor
             ) {
             background-color: var(--tg-bg-color-secondary) !important;
           }
+
+body {
+  overflow-x: hidden;
+}
 
 .entry-title a {
   font-family: "DM Sans";
