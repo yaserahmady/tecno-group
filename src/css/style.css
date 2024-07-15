@@ -10,6 +10,10 @@ License:    GNU General Public License v2 or later
 
 @import "./dark-mode/dark-mode.css";
 
+body {
+  overflow-x: hidden;
+}
+
 .entry-title a {
   font-family: "DM Sans";
 }

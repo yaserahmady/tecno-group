@@ -2,7 +2,20 @@ body.grayscale-mode.home {
   .elementor-element-c8293b3[data-id="c8293b3"],
   .elementor-element-9695b70[data-id="9695b70"],
   .elementor-element-f7d68af[data-id="f7d68af"],
-  .elementor-element-c5a0209[data-id="c5a0209"] {
+  .elementor-element-c5a0209[data-id="c5a0209"],
+  .elementor-element-42a397d[data-id="42a397d"] {
     background-color: var(--tg-bg-color-secondary);
+  }
+
+  .elementor-element-3076d7d[data-id="3076d7d"],
+  .elementor-element-9d277f1[data-id="9d277f1"],
+  .elementor-element-747084c[data-id="747084c"],
+  .elementor-element-dffc5d8[data-id="dffc5d8"],
+  .elementor-element-8ba55f3[data-id="8ba55f3"],
+  .elementor-element-cb321a3[data-id="cb321a3"],
+  .elementor-element-f4e2d4f[data-id="f4e2d4f"],
+  .elementor-element-21f2647[data-id="21f2647"],
+  .elementor-element-eabffa2[data-id="eabffa2"] {
+    filter: invert(100%);
   }
 }

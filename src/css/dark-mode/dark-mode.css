@@ -35,7 +35,8 @@ body.grayscale-mode {
       }
     }
 
-    .elementor-element-e3fb091[data-id="e3fb091"] {
+    .elementor-element-e3fb091[data-id="e3fb091"],
+    .elementor-element-32261c0[data-id="32261c0"] {
       img {
         filter: invert(100%) !important;
       }
@@ -46,6 +47,20 @@ body.grayscale-mode {
       color: var(--tg-text-color);
       svg {
         fill: var(--tg-text-color) !important;
+      }
+    }
+  }
+
+  /* Page cosa-facciamo */
+  &.page-id-1046 {
+    .elementor-element-3e949c9[data-id="3e949c9"] {
+      img {
+        filter: invert(100%);
+      }
+      .elementor-button {
+        background-color: var(--tg-bg-color) !important;
+        border-color: var(--tg-text-color) !important;
+        color: var(--tg-text-color) !important;
       }
     }
   }
@@ -132,7 +147,8 @@ body.grayscale-mode {
 
   /* Page polo-della-sostenibilita */
   &.page-id-2071 {
-    .elementor-element-de164f3[data-id="de164f3"] {
+    .elementor-element-de164f3[data-id="de164f3"],
+    .elementor-element-241ca38[data-id="241ca38"] {
       img {
         filter: invert(100%);
       }

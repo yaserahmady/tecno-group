@@ -22,7 +22,6 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
 	<meta name="viewport" content="<?php echo esc_attr( $viewport_content ); ?>">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<script>
-        <script>
         // Apply grayscale mode immediately if it was previously enabled
         (function() {
             if (localStorage.getItem('grayscale-mode') === 'enabled') {

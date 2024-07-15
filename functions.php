@@ -30,7 +30,7 @@ function enqueue_custom_scripts() {
 add_action( 'wp_enqueue_scripts', 'enqueue_custom_scripts' );
 
 function enqueue_dynamic_data_scripts() {
-    wp_enqueue_script( 'dynamic-data-script', get_stylesheet_directory_uri() . '/custom-widgets/js/dynamic-data-script.js', [ 'jquery' ], null, true );
+    wp_enqueue_script( 'dynamic-data-script', get_stylesheet_directory_uri() . '/custom-widgets/dynamic-data-script.js', [ 'jquery' ], null, true );
     wp_localize_script( 'dynamic-data-script', 'dynamicDataAjax', [
         'ajaxurl' => admin_url( 'admin-ajax.php' ),
     ]);
