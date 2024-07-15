@@ -3,3 +3,156 @@
 @import "./footer.css";
 @import "./homepage.css";
 /* @import "./niko-fixes.css"; */
+
+body.grayscale-mode {
+  /* Page: gruppo-tecno */
+  &.page-id-1156 {
+    .elementor-element-80193dc[data-id="80193dc"] {
+      background-color: var(--tg-bg-color-secondary) !important;
+      img {
+        filter: invert(100%);
+      }
+    }
+
+    .elementor-element-4cd4fc1[data-id="4cd4fc1"] img {
+      filter: invert(100%) !important;
+    }
+
+    .elementor-element-5c50154[data-id="5c50154"] {
+      background-color: var(--tg-bg-color-secondary) !important;
+      a {
+        color: var(--tg-text-color) !important;
+      }
+    }
+
+    .swiper-slide {
+      .wpr-story-info {
+        background-color: var(--tg-bg-color-secondary) !important;
+        .wpr-title,
+        .wpr-description p {
+          color: var(--tg-text-color) !important;
+        }
+      }
+    }
+
+    .elementor-element-e3fb091[data-id="e3fb091"] {
+      img {
+        filter: invert(100%) !important;
+      }
+    }
+
+    .elementor-icon {
+      border-color: var(--tg-text-color) !important;
+      color: var(--tg-text-color);
+      svg {
+        fill: var(--tg-text-color) !important;
+      }
+    }
+  }
+
+  /* Page cosa-ci-guida */
+  &.page-id-2065 {
+    .elementor-element-7b63582[data-id="7b63582"],
+    .elementor-element-579a5f9[data-id="579a5f9"] {
+      svg {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(100%)
+          saturate(0%) hue-rotate(288deg) brightness(101%) contrast(103%);
+      }
+    }
+  }
+
+  /* Page digital-transformation */
+  &.page-id-2080 {
+    .elementor-element-2e246f9[data-id="2e246f9"] {
+      h2,
+      h2 span,
+      p {
+        color: var(--tg-bg-color) !important;
+      }
+    }
+  }
+
+  /* Page news-media */
+  &.page-id-2124 {
+    .elementor-element-69a49d2[data-id="69a49d2"] {
+      h2,
+      h2 span,
+      p {
+        color: var(--tg-bg-color) !important;
+      }
+    }
+  }
+
+  /* Single post */
+  &.single-post {
+    [data-elementor-type="single-post"] {
+      h1,
+      .wpr-post-content,
+      .wpr-post-content a,
+      .wpr-post-content h2,
+      .wpr-post-content h3 {
+        color: var(--tg-text-color) !important;
+      }
+
+      .wpr-post-content a {
+        text-decoration: underline;
+      }
+
+      .elementor-widget-post-info {
+        a span {
+          color: var(--tg-text-color) !important;
+        }
+      }
+    }
+  }
+
+  /* Page: contatti */
+  &.page-id-2103 {
+    a {
+      color: var(--tg-text-color) !important;
+      text-decoration: underline;
+    }
+    /* Contact form */
+    .elementor-element-c034fe6[data-id="c034fe6"] {
+      background-color: var(--tg-bg-color-secondary) !important;
+
+      label {
+        color: var(--tg-text-color) !important;
+      }
+
+      input,
+      textarea,
+      select {
+        color: var(--tg-text-color) !important;
+        background-color: var(--tg-bg-color-secondary) !important;
+        border-color: var(--tg-text-color) !important;
+      }
+    }
+  }
+
+  /* Page polo-della-sostenibilita */
+  &.page-id-2071 {
+    .elementor-element-de164f3[data-id="de164f3"] {
+      img {
+        filter: invert(100%);
+      }
+    }
+  }
+
+  /* Page responsabilita-sociale */
+  &.page-id-2074 {
+    .elementor-element-1379c16[data-id="1379c16"] {
+      img {
+        filter: invert(100%);
+      }
+    }
+
+    figcaption {
+      color: var(--tg-text-color) !important;
+    }
+
+    .swiper-pagination-bullet {
+      background-color: var(--tg-text-color) !important;
+    }
+  }
+}

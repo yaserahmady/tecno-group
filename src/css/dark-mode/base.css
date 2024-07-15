@@ -17,6 +17,59 @@ body.grayscale-mode {
   h6,
   h6.elementor-heading-title {
     color: var(--tg-text-color);
+    a,
+    span {
+      color: var(--tg-text-color) !important;
+    }
+  }
+
+  p.elementor-icon-box-description {
+    color: var(--tg-text-color) !important;
+  }
+
+  .elementor-counter {
+    .elementor-counter-title,
+    .elementor-counter-number-wrapper span {
+      color: var(--tg-text-color) !important;
+    }
+  }
+
+  .wpr-advanced-accordion {
+    button.wpr-acc-button {
+      color: var(--tg-text-color) !important;
+      svg {
+        fill: var(--tg-text-color) !important;
+      }
+    }
+    .wpr-acc-panel-content {
+      color: var(--tg-text-color) !important;
+    }
+  }
+
+  .wpr-breadcrumbs {
+    color: var(--tg-text-color) !important;
+    a {
+      color: var(--tg-text-color) !important;
+    }
+  }
+
+  .inner-block {
+    color: var(--tg-text-color) !important;
+  }
+
+  p.wpr-feature-list-description {
+    color: var(--tg-text-color) !important;
+    a button {
+      color: var(--tg-text-color) !important;
+    }
+  }
+
+  .wpr-grid-item-read-more a {
+    color: var(--tg-text-color) !important;
+  }
+
+  .dark-white-tecno {
+    background-color: var(--tg-bg-color-secondary) !important;
   }
 
   div.elementor-widget-heading

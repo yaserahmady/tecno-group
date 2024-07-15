@@ -40,13 +40,6 @@ body.grayscale-mode {
           }
         }
 
-        .elementor-icon {
-          border-color: var(--tg-text-color);
-          svg {
-            fill: var(--tg-text-color);
-          }
-        }
-
         a.wpr-button {
           border: 1px solid var(--tg-border-color);
         }
