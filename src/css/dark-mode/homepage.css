@@ -1,7 +1,8 @@
 body.grayscale-mode.home {
   .elementor-element-c8293b3[data-id="c8293b3"],
   .elementor-element-9695b70[data-id="9695b70"],
-  .elementor-element-f7d68af[data-id="f7d68af"] {
+  .elementor-element-f7d68af[data-id="f7d68af"],
+  .elementor-element-c5a0209[data-id="c5a0209"] {
     background-color: var(--tg-bg-color-secondary);
   }
 }

@@ -32,11 +32,11 @@ body.grayscale-mode {
 body.grayscale-mode {
   background-color: var(--tg-bg-color);
   color: var(--tg-text-color);
+  filter: grayscale(100%);
 }
 
-body.grayscale-mode > * {
-    filter: grayscale(100%);
-  }
+/* & > * {
+  } */
 
 /* Typography */
 
@@ -320,7 +320,8 @@ body.grayscale-mode [data-elementor-id="272"] .elementor-element-0225b8a[data-id
 
 body.grayscale-mode.home .elementor-element-c8293b3[data-id="c8293b3"],
   body.grayscale-mode.home .elementor-element-9695b70[data-id="9695b70"],
-  body.grayscale-mode.home .elementor-element-f7d68af[data-id="f7d68af"] {
+  body.grayscale-mode.home .elementor-element-f7d68af[data-id="f7d68af"],
+  body.grayscale-mode.home .elementor-element-c5a0209[data-id="c5a0209"] {
     background-color: var(--tg-bg-color-secondary);
   }
 

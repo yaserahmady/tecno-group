@@ -112,3 +112,7 @@ function add_grayscale_body_class($classes) {
 }
 add_filter('body_class', 'add_grayscale_body_class');
 
+function add_custom_div_to_body() {
+    echo '<div id="grayscale"></div>';
+}
+add_action('wp_body_open', 'add_custom_div_to_body');

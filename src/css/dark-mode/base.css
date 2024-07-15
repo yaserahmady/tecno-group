@@ -2,9 +2,14 @@ body.grayscale-mode {
   background-color: var(--tg-bg-color);
   color: var(--tg-text-color);
 
-  & > * {
-    filter: grayscale(100%);
+  #grayscale {
+    position: fixed;
+    inset: 0;
+    z-index: 99999999999999999;
+    backdrop-filter: grayscale(100%);
+    pointer-events: none;
   }
+
   /* Typography */
   h1,
   h1.elementor-heading-title,
