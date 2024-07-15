@@ -46,6 +46,10 @@ body.grayscale-mode {
     }
   }
 
+  .elementor-widget-theme-post-content {
+    color: var(--tg-text-color) !important;
+  }
+
   .wpr-breadcrumbs {
     color: var(--tg-text-color) !important;
     a {

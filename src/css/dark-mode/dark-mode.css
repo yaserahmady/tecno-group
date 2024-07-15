@@ -155,4 +155,27 @@ body.grayscale-mode {
       background-color: var(--tg-text-color) !important;
     }
   }
+
+  /* Page glossario */
+  &.page-id-2109 {
+    .elementor-element-86138eb[data-id="86138eb"] {
+      h2,
+      h2 span,
+      p {
+        color: var(--tg-bg-color) !important;
+      }
+    }
+
+    main {
+      [data-element_type="container"] {
+        .elementor-element {
+          .elementor-element:last-child:not(.elementor-element-bb30bea):not(
+              .elementor-element-93675cd
+            ) {
+            background-color: var(--tg-bg-color-secondary) !important;
+          }
+        }
+      }
+    }
+  }
 }
