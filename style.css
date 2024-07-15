@@ -8,7 +8,7 @@ Version:    1.0
 License:    GNU General Public License v2 or later
 */
 
-:root {
+/* :root {
   --fill-white-from-black: {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
       brightness(101%) contrast(103%);
@@ -18,7 +18,7 @@ License:    GNU General Public License v2 or later
     filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
       hue-rotate(288deg) brightness(101%) contrast(103%);
   }
-}
+} */
 
 body.grayscale-mode {
   --tg-text-color: #ffffff;
@@ -32,8 +32,11 @@ body.grayscale-mode {
 body.grayscale-mode {
   background-color: var(--tg-bg-color);
   color: var(--tg-text-color);
-  filter: grayscale(100%);
 }
+
+body.grayscale-mode > * {
+    filter: grayscale(100%);
+  }
 
 /* Typography */
 
@@ -99,6 +102,10 @@ body.grayscale-mode .wpr-advanced-accordion button.wpr-acc-button svg {
 body.grayscale-mode .wpr-advanced-accordion .wpr-acc-panel-content {
       color: var(--tg-text-color) !important;
     }
+
+body.grayscale-mode .elementor-widget-theme-post-content {
+    color: var(--tg-text-color) !important;
+  }
 
 body.grayscale-mode .wpr-breadcrumbs {
     color: var(--tg-text-color) !important;
@@ -210,6 +217,10 @@ body.grayscale-mode .elementor-element-5db5131[data-id="5db5131"] img {
     }
 
 /* Dialogs (like mobile menus) */
+
+body.grayscale-mode .dialog-widget .back-one-level {
+      color: var(--tg-text-color) !important;
+    }
 
 body.grayscale-mode .dialog-widget .dialog-widget-content {
       background-color: var(--tg-bg-color-secondary);
@@ -444,3 +455,25 @@ body.grayscale-mode.page-id-2074 figcaption {
 body.grayscale-mode.page-id-2074 .swiper-pagination-bullet {
       background-color: var(--tg-text-color) !important;
     }
+
+/* Page glossario */
+
+body.grayscale-mode.page-id-2109 .elementor-element-86138eb[data-id="86138eb"] h2,
+      body.grayscale-mode.page-id-2109 .elementor-element-86138eb[data-id="86138eb"] h2 span,
+      body.grayscale-mode.page-id-2109 .elementor-element-86138eb[data-id="86138eb"] p {
+        color: var(--tg-bg-color) !important;
+      }
+
+body.grayscale-mode.page-id-2109 main [data-element_type="container"] .elementor-element .elementor-element:last-child:not(.elementor-element-bb30bea):not(
+              .elementor-element-93675cd
+            ) {
+            background-color: var(--tg-bg-color-secondary) !important;
+          }
+
+.entry-title a {
+  font-family: "DM Sans";
+}
+
+article p {
+  font-family: "DM Sans";
+}

@@ -53,12 +53,3 @@ body.grayscale-mode {
     border-color: #fff !important;
   }
 }
-
-.entry-title a {
-  color: #002853 !important;
-  font-family: "DM Sans";
-}
-
-article p {
-  font-family: "DM Sans";
-}

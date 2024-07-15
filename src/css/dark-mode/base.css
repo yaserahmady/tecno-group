@@ -1,8 +1,10 @@
 body.grayscale-mode {
   background-color: var(--tg-bg-color);
   color: var(--tg-text-color);
-  filter: grayscale(100%);
 
+  & > * {
+    filter: grayscale(100%);
+  }
   /* Typography */
   h1,
   h1.elementor-heading-title,
@@ -151,6 +153,9 @@ body.grayscale-mode {
 
   /* Dialogs (like mobile menus) */
   .dialog-widget {
+    .back-one-level {
+      color: var(--tg-text-color) !important;
+    }
     .dialog-widget-content {
       background-color: var(--tg-bg-color-secondary);
       color: var(--tg-text-color);
