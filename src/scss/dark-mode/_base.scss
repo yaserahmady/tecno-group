@@ -114,8 +114,8 @@ body.grayscale-mode {
 
   /* Menus */
   /* Top secondary navbar */
-  div.elementor-element.elementor-element-df63de2[data-id="df63de2"] {
-    background-color: var(--tg-bg-color-secondary);
+  #{elementor("df63de2")} {
+    background-color: var(--tg-bg-color-tertiary);
     a.wpr-menu-item {
       color: var(--tg-text-color);
     }
@@ -126,8 +126,7 @@ body.grayscale-mode {
     background-color: var(--tg-bg-color);
 
     [data-id="92c8d75"] img {
-      filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
-        hue-rotate(288deg) brightness(101%) contrast(103%);
+      @include fill-white-from-any;
     }
 
     a.wpr-menu-item {

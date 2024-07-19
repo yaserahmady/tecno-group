@@ -1,8 +1,7 @@
-@import "./variables.css";
-@import "./base.css";
-@import "./footer.css";
-@import "./homepage.css";
-/* @import "./niko-fixes.css"; */
+@import "base";
+@import "footer";
+@import "homepage";
+/* @import "./niko-fixes"; */
 
 body.grayscale-mode {
   /* Page: gruppo-tecno */
@@ -67,11 +66,10 @@ body.grayscale-mode {
 
   /* Page cosa-ci-guida */
   &.page-id-2065 {
-    .elementor-element-7b63582[data-id="7b63582"],
-    .elementor-element-579a5f9[data-id="579a5f9"] {
+    #{elementor("7b63582")},
+    #{elementor("579a5f9")} {
       svg {
-        filter: brightness(0) saturate(100%) invert(100%) sepia(100%)
-          saturate(0%) hue-rotate(288deg) brightness(101%) contrast(103%);
+        @include fill-white-from-any;
       }
     }
   }

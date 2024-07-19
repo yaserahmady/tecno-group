@@ -5,11 +5,23 @@
     "watch": "postcss ./src/css/style.css -o ./style.css --watch",
     "build": "postcss ./src/css/style.css -o ./style.css"
   },
+  "grunt": {
+    "src": "./src",
+    "dest": "./"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.39",
     "postcss-cli": "^11.0.0",
     "postcss-import": "^16.1.0",
     "postcss-nested": "^6.0.1"
+  },
+  "dependencies": {
+    "@lodder/grunt-postcss": "^3.1.1",
+    "grunt": "^1.6.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.1.0",
+    "pixrem": "^5.0.0",
+    "sass-embedded": "^1.77.8"
   }
 }

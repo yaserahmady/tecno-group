@@ -1,0 +1,22 @@
+@mixin fill-white-from-black {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
+    brightness(101%) contrast(103%);
+}
+
+@mixin fill-white-from-any {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
+    hue-rotate(288deg) brightness(101%) contrast(103%);
+}
+
+@function elementor($id) {
+  @return '.elementor-element-#{$id}[data-id="#{$id}"]';
+}
+
+body.grayscale-mode {
+  --tg-text-color: #ffffff;
+  --tg-text-color-secondary: #999999;
+  --tg-bg-color: #121212;
+  --tg-bg-color-secondary: #171717;
+  --tg-bg-color-tertiary: #212121;
+  --tg-border-color: #242424;
+}
